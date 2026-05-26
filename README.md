@@ -50,5 +50,5 @@ Tanto al publicar como comentar, debes atenerte a las **normas**, que consisten 
 |27/05| Retrieval Augmented Generation | |
 |03/06| Bases de datos de grafos |  |
 |10/06| Bases de datos de grafos |  |
-|17/06| GraphRAG | Interrogación 2, 19/06 |
+|17/06| GraphRAG | Interrogación 3, 19/06 |
 |24/06| Clase Invitada | Entrega tarea 2 |
