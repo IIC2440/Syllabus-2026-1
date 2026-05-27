@@ -33,13 +33,14 @@ from qdrant_client import QdrantClient, models
 from sentence_transformers import SentenceTransformer
 
 # ─── Constantes ──────────────────────────────────────────────────────────────
+# IMPORTANTE: El token de lectura que di en la clase no sirve para esto, debe ser uno de administrador 
+# que pueda crear y escribir colecciones
 
 COLLECTION = ...
 DENSE_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"  # 50+ idiomas, 384d coseno
 SPARSE_MODEL = "Qdrant/bm25"  # BM25 language-agnostic
 DENSE_DIM = 384
 BATCH = 32
-
 
 QDRANT_URL = ...
 QDRANT_API_KEY = ...
